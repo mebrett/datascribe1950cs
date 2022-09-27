@@ -1,0 +1,588 @@
+[
+    {
+        "data_type": "select",
+        "name": "a. State or Territory",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Alabama (AL)",
+                "Alaska (AK)",
+                "American Samoa",
+                "Arizona (AZ)",
+                "Arkansas (AR)",
+                "California (CA)",
+                "Canton Island",
+                "Colorado (CO)",
+                "Connecticut (CT)",
+                "Delaware (DE)",
+                "District of Columbia (DC)",
+                "Florida (FL)",
+                "Georgia (GA)",
+                "Guam",
+                "Hawaii (HI)",
+                "Idaho (ID)",
+                "Illinois (IL)",
+                "Indiana (IN)",
+                "Iowa (IA)",
+                "Johnston Island",
+                "Kansas (KS)",
+                "Kentucky (KY)",
+                "Louisiana (LA)",
+                "Maine (ME)",
+                "Maryland (MD)",
+                "Massachusetts (MA)",
+                "Michigan (MI)",
+                "Midway Island",
+                "Minnesota (MN)",
+                "Mississippi (MS)",
+                "Missouri (MO)",
+                "Montana (MT)",
+                "Nebraska (NE)",
+                "Nevada (NV)",
+                "New Hampshire (NH)",
+                "New Jersey (NJ)",
+                "New Mexico (NM)",
+                "New York (NY)",
+                "North Carolina (NC)",
+                "North Dakota (ND)",
+                "Ohio (OH)",
+                "Oklahoma (OK)",
+                "Oregon (OR)",
+                "Panama Canal Zone",
+                "Pennsylvania (PA)",
+                "Puerto Rico",
+                "Rhode Island (RI)",
+                "South Carolina (SC)",
+                "South Dakota (SD)",
+                "Tennessee (TN)",
+                "Texas (TX)",
+                "Utah (UT)",
+                "Vermont (VT)",
+                "Virgin Islands",
+                "Virginia (VA)",
+                "Wake Island",
+                "Washington (WA)",
+                "West Virginia (WV)",
+                "Wisconsin (WI)",
+                "Wyoming (WY)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "b. County",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "c. Incorporated place or township",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "d. Enumeration District number",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "checkbox",
+        "name": "Line falls in range covered by box e",
+        "description": "Check if the line number for the entry falls within a range indicated in Box e at the top of the page. See Guidelines for more details",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "checked_value": "1",
+            "unchecked_value": "0",
+            "checked_by_default": "0",
+            "label": null
+        }
+    },
+    {
+        "data_type": "textarea",
+        "name": "e. Institution information if relevant",
+        "description": "Enter name and description. See guidelines for more details.",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "rows": null,
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "date",
+        "name": "f. Date sheet started",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min_year": "1949",
+            "max_year": "1951",
+            "default_year": "1950",
+            "default_month": "4",
+            "default_day": "1"
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "Sheet number",
+        "description": "Upper right corner of sheet, to the left of box f.",
+        "is_primary": false,
+        "is_required": true,
+        "data": {
+            "min": "1",
+            "max": "100",
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "Line number",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min": "1",
+            "max": "30",
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "Sample line?",
+        "description": "Sample lines have a callout to the left of the line number.",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "1. Name of street, avenue, or road",
+        "description": "Written vertically",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "2. House or apartment number",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "3. Number of dwelling unit",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min": null,
+            "max": null,
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "4. Is this house on a farm or ranch?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "5. Is this house on a place of three or more acres?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "7. Name of person",
+        "description": "Enter as last, first",
+        "is_primary": true,
+        "is_required": true,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "8. Relationship to head of household",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "9. Race",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "White (W)",
+                "Negro(Neg)",
+                "American Indian (Ind)",
+                "Japanese (Jap)",
+                "Chinese (Chi)",
+                "Flippino (Fil)",
+                "Other"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "Race if other",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "10. Sex",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Male",
+                "Female"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "11. How old on last birthday?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min": null,
+            "max": null,
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "Age at last birthday if under one year",
+        "description": "enter as written",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "12. Marital status",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Married (Mar)",
+                "Widowed (Wd)",
+                "Divorced (D)",
+                "Separated (Sep)",
+                "Never married (Nev)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "13. State or foreign country where they were born",
+        "description": "Transcribe exactly as written",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "14. If foreign-born, are they naturalized?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No",
+                "Born abroad of American parents (P)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "15. What was this person doing most of last week?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Working (Wk)",
+                "Housekeeping (H)",
+                "Other (Ot)",
+                "Unable to work (U)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "16. Did this person do any work at all last week, not counting work around the house?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "17. Was this person looking for work?",
+        "description": "Only filled if no in 16",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "radio",
+        "name": "18. Do they have a job or business? ",
+        "description": "Only filled if no in 17",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "19. How many hours did they work last week?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min": null,
+            "max": null,
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "20a. What kind of work were they doing?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "20b. What kind of business or industry?",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "select",
+        "name": "20c. Class of worker",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Private employer (P)",
+                "Government (G)",
+                "Own business (O)",
+                "Without pay on family farm or business (NP)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    }
+]

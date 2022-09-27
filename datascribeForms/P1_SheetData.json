@@ -1,0 +1,218 @@
+[
+    {
+        "data_type": "select",
+        "name": "a. State or Territory",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "options": [
+                "Alabama (AL)",
+                "Alaska (AK)",
+                "American Samoa",
+                "Arizona (AZ)",
+                "Arkansas (AR)",
+                "California (CA)",
+                "Canton Island",
+                "Colorado (CO)",
+                "Connecticut (CT)",
+                "Delaware (DE)",
+                "District of Columbia (DC)",
+                "Florida (FL)",
+                "Georgia (GA)",
+                "Guam",
+                "Hawaii (HI)",
+                "Idaho (ID)",
+                "Illinois (IL)",
+                "Indiana (IN)",
+                "Iowa (IA)",
+                "Johnston Island",
+                "Kansas (KS)",
+                "Kentucky (KY)",
+                "Louisiana (LA)",
+                "Maine (ME)",
+                "Maryland (MD)",
+                "Massachusetts (MA)",
+                "Michigan (MI)",
+                "Midway Island",
+                "Minnesota (MN)",
+                "Mississippi (MS)",
+                "Missouri (MO)",
+                "Montana (MT)",
+                "Nebraska (NE)",
+                "Nevada (NV)",
+                "New Hampshire (NH)",
+                "New Jersey (NJ)",
+                "New Mexico (NM)",
+                "New York (NY)",
+                "North Carolina (NC)",
+                "North Dakota (ND)",
+                "Ohio (OH)",
+                "Oklahoma (OK)",
+                "Oregon (OR)",
+                "Panama Canal Zone",
+                "Pennsylvania (PA)",
+                "Puerto Rico",
+                "Rhode Island (RI)",
+                "South Carolina (SC)",
+                "South Dakota (SD)",
+                "Tennessee (TN)",
+                "Texas (TX)",
+                "Utah (UT)",
+                "Vermont (VT)",
+                "Virgin Islands",
+                "Virginia (VA)",
+                "Wake Island",
+                "Washington (WA)",
+                "West Virginia (WV)",
+                "Wisconsin (WI)",
+                "Wyoming (WY)"
+            ],
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "b. County",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "c. Incorporated place or township",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "d. Enumeration District number",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "textarea",
+        "name": "e. Institution information if relevant",
+        "description": "Enter name(s) and description. Separate multiple instances with a semicolon.",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "rows": null,
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "date",
+        "name": "f. Date sheet started",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min_year": "1949",
+            "max_year": "1951",
+            "default_year": "1950",
+            "default_month": "4",
+            "default_day": "1"
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "Sheet number",
+        "description": "Upper right corner of sheet, to the left of box f.",
+        "is_primary": false,
+        "is_required": true,
+        "data": {
+            "min": "1",
+            "max": "100",
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "g. Enumerator's name",
+        "description": "Do your best to decipher the signature.",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "h. Crew leader's name",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "textarea",
+        "name": "Street names",
+        "description": "Enter the names of all of the streets on this sheet. Separate street names with a semicolon (;).",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "rows": null,
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null
+        }
+    }
+]
