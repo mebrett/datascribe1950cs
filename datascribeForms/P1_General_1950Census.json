@@ -122,8 +122,8 @@
     },
     {
         "data_type": "checkbox",
-        "name": "Line falls in range covered by box e",
-        "description": "Check if the line number for the entry falls within a range indicated in Box e at the top of the page. See Guidelines for more details",
+        "name": "Line falls in range covered by field e",
+        "description": "Check if the line number for the entry falls within a range indicated in field e at the top of the page. See Guidelines for more details",
         "is_primary": false,
         "is_required": false,
         "data": {
@@ -166,7 +166,7 @@
     {
         "data_type": "number",
         "name": "Sheet number",
-        "description": "Upper right corner of sheet, to the left of box f.",
+        "description": "Upper right corner of sheet, to the left of field f.",
         "is_primary": false,
         "is_required": true,
         "data": {
