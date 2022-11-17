@@ -1,6 +1,6 @@
 # DataScribe and the 1950s Census
 
-This repository contains supplementary material for a case study on using DataScribe to transcribe selections from the 1950 United States Census. 
+This repository contains supplementary material for a [case study on using DataScribe](https://datascribe.tech/resources/casestudies/#1950-united-states-census) to transcribe selections from the 1950 United States Census. 
 
 Directory contents:
 
