@@ -10,4 +10,4 @@ Directory contents:
 
 ## Licenses
 
-All code is GNU General Public License. All text is CC-BY-4.0
+All text is CC-BY-4.0
